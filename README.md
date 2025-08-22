@@ -7,7 +7,7 @@ A user-friendly web application built with Laravel for managing personal expense
 ## 🚀 Features
 
 - **User Authentication**: Secure login and registration using Laravel's built-in authentication system.
-- **Expense Management**: Add, edit, and delete expenses with categories and amounts.
+- **Expense Management**: Add with categories and amounts.
 - **Monthly Reports**: View categorized expenses for the current month.
 - **Visual Charts**: Interactive pie charts displaying expense distributions.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
@@ -69,8 +69,8 @@ Ensure you have the following installed:
 
 After setting up the application, you can register a new account or log in with the following credentials:
 
-- **Email:** `test@example.com`
-- **Password:** `password`
+- **Email:** `admin@example.com`
+- **Password:** `123456789`
 
 ---
 
