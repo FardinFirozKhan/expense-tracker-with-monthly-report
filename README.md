@@ -46,4 +46,42 @@ Ensure you have the following installed:
    ```bash
    composer install
 
+3. **Set up environment variables:**:
+
+   ```bash
+   cp .env.example .env
+4. **Generate the application key:**
+
+   ```bash
+   php artisan key:generate
+ 
+5. **Run migrations and seed the database:**
+
+   ```bash
+   php artisan migrate --seed
+
+6. **Serve the application::**
+
+   ```bash
+   php artisan serve
+
+## 🔐 Authentication
+
+After setting up the application, you can register a new account or log in with the following credentials:
+
+- **Email:** `test@example.com`
+- **Password:** `password`
+
+---
+
+## 📊 Monthly Report
+
+The monthly report page provides:
+
+- A table listing each expense category with its total amount.
+- A pie chart visualizing the expense distribution by category.
+
+> If no expenses are recorded, the chart will display a "No data found" message.
+
+
 
